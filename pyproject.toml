@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "unit_converter"}]
   
 [tool.poetry.dependencies]
-python = ">=3.12,<3.14"
+requires-python = ">=3.13,<3.14"
 streamlit = "^1.30.0"
 pandas = "^2.0.0"
 
