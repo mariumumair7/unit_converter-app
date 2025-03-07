@@ -5,9 +5,9 @@ description = "A simple unit converter app"
 authors = ["Marium Umair <mariamscorpion1@gmail.com>"]
 readme = "README.md"
 packages = [{include = "unit_converter"}]
-  
+
 [tool.poetry.dependencies]
-requires-python = ">=3.13,<3.14"
+python = "^3.13"
 streamlit = "^1.30.0"
 pandas = "^2.0.0"
 
