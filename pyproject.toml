@@ -1,16 +1,10 @@
-[tool.poetry]
-name = "unit-converter"
+[project]
+name = "unit_converter"
 version = "0.1.0"
-description = "A simple unit converter app"
-authors = ["Marium Umair <mariamscorpion1@gmail.com>"]
+description = "Add your description here"
 readme = "README.md"
-packages = [{include = "unit_converter"}]
-
-[tool.poetry.dependencies]
-python = "^3.13"
-streamlit = "^1.30.0"
-pandas = "^2.0.0"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit",
+    "pandas"
+]
