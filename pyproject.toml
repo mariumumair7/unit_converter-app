@@ -4,10 +4,10 @@ version = "0.1.0"
 description = "A simple unit converter app"
 authors = ["Marium Umair <mariamscorpion1@gmail.com>"]
 readme = "README.md"
-packages = [{include = "unit_converter"}]  
-
+packages = [{include = "unit_converter"}]
+  
 [tool.poetry.dependencies]
-python = ">=3.10" 
+python = ">=3.12,<3.14"
 streamlit = "^1.30.0"
 pandas = "^2.0.0"
 
